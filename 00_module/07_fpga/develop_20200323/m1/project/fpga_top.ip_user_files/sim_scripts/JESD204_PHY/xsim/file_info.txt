@@ -1,0 +1,11 @@
+jesd204_phy_gt_tx_startup_fsm.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/JESD204_PHY_gt/example_design/jesd204_phy_gt_tx_startup_fsm.v,
+jesd204_phy_gt_rx_startup_fsm.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/JESD204_PHY_gt/example_design/jesd204_phy_gt_rx_startup_fsm.v,
+jesd204_phy_gt_init.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/jesd204_phy_gt_init.v,
+jesd204_phy_gt_gt.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/jesd204_phy_gt_gt.v,
+jesd204_phy_gt_multi_gt.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/jesd204_phy_gt_multi_gt.v,
+jesd204_phy_gt_sync_block.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/JESD204_PHY_gt/example_design/jesd204_phy_gt_sync_block.v,
+jesd204_phy_gt.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/ip_0/jesd204_phy_gt.v,
+JESD204_PHY_block.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/synth/JESD204_PHY_block.v,
+JESD204_PHY_sync_block.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/synth/JESD204_PHY_sync_block.v,
+JESD204_PHY.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204_PHY/synth/JESD204_PHY.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

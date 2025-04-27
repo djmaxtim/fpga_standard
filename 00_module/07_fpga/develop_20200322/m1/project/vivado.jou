@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Mar 27 09:38:14 2025
+# Process ID: 12460
+# Current directory: G:/00_module/07_fpga/develop_20200322/m1/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24452 G:\00_module\07_fpga\develop_20200322\m1\project\fpga_top.xpr
+# Log file: G:/00_module/07_fpga/develop_20200322/m1/project/vivado.log
+# Journal file: G:/00_module/07_fpga/develop_20200322/m1/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.xpr
+update_compile_order -fileset sources_1
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name afifo_i32o32_d2048 -dir G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo
+set_property -dict [list CONFIG.Component_Name {afifo_i32o32_d2048} CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Input_Data_Width {32} CONFIG.Input_Depth {2048} CONFIG.Output_Data_Width {32} CONFIG.Output_Depth {2048} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {1} CONFIG.Data_Count_Width {11} CONFIG.Write_Data_Count {true} CONFIG.Write_Data_Count_Width {11} CONFIG.Read_Data_Count {true} CONFIG.Read_Data_Count_Width {11} CONFIG.Full_Threshold_Assert_Value {2047} CONFIG.Full_Threshold_Negate_Value {2046} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5} CONFIG.Enable_Safety_Circuit {true}] [get_ips afifo_i32o32_d2048]
+generate_target {instantiation_template} [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci]
+catch { config_ip_cache -export [get_ips -all afifo_i32o32_d2048] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci]
+launch_runs afifo_i32o32_d2048_synth_1 -jobs 8
+wait_on_run afifo_i32o32_d2048_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci] -directory G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name sfifo_i32o32_d1024 -dir G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo
+set_property -dict [list CONFIG.Component_Name {sfifo_i32o32_d1024} CONFIG.Performance_Options {First_Word_Fall_Through} CONFIG.Input_Data_Width {32} CONFIG.Output_Data_Width {32} CONFIG.Use_Extra_Logic {true} CONFIG.Data_Count {true} CONFIG.Data_Count_Width {11} CONFIG.Write_Data_Count_Width {11} CONFIG.Read_Data_Count_Width {11} CONFIG.Full_Threshold_Assert_Value {1023} CONFIG.Full_Threshold_Negate_Value {1022} CONFIG.Empty_Threshold_Assert_Value {4} CONFIG.Empty_Threshold_Negate_Value {5}] [get_ips sfifo_i32o32_d1024]
+generate_target {instantiation_template} [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo/sfifo_i32o32_d1024/sfifo_i32o32_d1024.xci]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo/sfifo_i32o32_d1024/sfifo_i32o32_d1024.xci]
+catch { config_ip_cache -export [get_ips -all sfifo_i32o32_d1024] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo/sfifo_i32o32_d1024/sfifo_i32o32_d1024.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo/sfifo_i32o32_d1024/sfifo_i32o32_d1024.xci]
+launch_runs sfifo_i32o32_d1024_synth_1 -jobs 8
+wait_on_run sfifo_i32o32_d1024_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/01_sfifo/sfifo_i32o32_d1024/sfifo_i32o32_d1024.xci] -directory G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_iic/iic_if.v] -no_script -reset -force -quiet
+remove_files  G:/00_module/07_fpga/develop_20200322/rtl/03_iic/iic_if.v
+set_property -dict [list CONFIG.Almost_Full_Flag {true} CONFIG.Almost_Empty_Flag {true}] [get_ips afifo_i32o32_d2048]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci]
+catch { config_ip_cache -export [get_ips -all afifo_i32o32_d2048] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci] -no_script -sync -force -quiet
+reset_run afifo_i32o32_d2048_synth_1
+launch_runs afifo_i32o32_d2048_synth_1 -jobs 8
+wait_on_run afifo_i32o32_d2048_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/00_afifo/afifo_i32o32_d2048/afifo_i32o32_d2048.xci] -directory G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_project
+open_project G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.xpr
+update_compile_order -fileset sources_1
+create_ip -name srio_gen2 -vendor xilinx.com -library ip -version 4.1 -module_name rapid_x15g -dir G:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio
+set_property -dict [list CONFIG.Component_Name {rapid_x15g} CONFIG.mode_selection {Advanced} CONFIG.port_io_style {init_targ} CONFIG.c_support_level {Example_Design}] [get_ips rapid_x15g]
+generate_target {instantiation_template} [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci]
+catch { config_ip_cache -export [get_ips -all rapid_x15g] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci]
+launch_runs rapid_x15g_synth_1 -jobs 8
+wait_on_run rapid_x15g_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci] -directory G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_example_project -force -dir G:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio [get_ips  rapid_x15g]
+export_ip_user_files -of_objects  [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci] -no_script -reset -force -quiet
+remove_files  -fileset rapid_x15g g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_rapidio/rapid_x15g/rapid_x15g.xci
+create_ip -name srio_gen2 -vendor xilinx.com -library ip -version 4.1 -module_name srio_x15g -dir G:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio
+set_property -dict [list CONFIG.Component_Name {srio_x15g} CONFIG.mode_selection {Advanced} CONFIG.flow_control {transmitter_controlled} CONFIG.c_support_level {Example_Design}] [get_ips srio_x15g]
+generate_target {instantiation_template} [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci]
+catch { config_ip_cache -export [get_ips -all srio_x15g] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci]
+launch_runs srio_x15g_synth_1 -jobs 8
+wait_on_run srio_x15g_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci] -directory G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci] -no_script -reset -force -quiet
+remove_files  -fileset srio_x15g g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_x15g/srio_x15g.xci
+create_ip -name srio_gen2 -vendor xilinx.com -library ip -version 4.1 -module_name srio_5gx1 -dir G:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio
+set_property -dict [list CONFIG.Component_Name {srio_5gx1} CONFIG.mode_selection {Advanced} CONFIG.c_support_level {Example_Design}] [get_ips srio_5gx1]
+generate_target {instantiation_template} [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/srio_5gx1.xci]
+generate_target all [get_files  g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/srio_5gx1.xci]
+catch { config_ip_cache -export [get_ips -all srio_5gx1] }
+export_ip_user_files -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/srio_5gx1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/srio_5gx1.xci]
+launch_runs srio_5gx1_synth_1 -jobs 8
+wait_on_run srio_5gx1_synth_1
+export_simulation -of_objects [get_files g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/srio_5gx1.xci] -directory G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_example_project -force -dir G:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio [get_ips  srio_5gx1]
+add_files -norecurse {G:/00_module/07_fpga/develop_20200323/rtl/03_srio/tag_reg_tx.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/ini_dma_rd.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/int_rx_dec.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/int_reg_tx.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/srio_rx.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/tag_dma_tx.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/tag_rx_dec.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/srio_tx.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/srio_top.v G:/00_module/07_fpga/develop_20200323/rtl/03_srio/ini_dma_wr.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 14 14:26:37 2025
+# Process ID: 8824
+# Current directory: g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1_ex/srio_5gx1_ex.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1_ex/srio_5gx1_ex.sim/sim_1/behav/xsim/xsim.dir/srio_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1_ex/srio_5gx1_ex.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1_ex/srio_5gx1_ex.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1_ex/srio_5gx1_ex.sim/sim_1/behav/xsim/xsim.dir/srio_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 14 14:26:39 2025...

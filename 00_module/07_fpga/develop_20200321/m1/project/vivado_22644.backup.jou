@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Feb 21 13:27:32 2025
+# Process ID: 22644
+# Current directory: G:/00_module/07_fpga/sim_demo20200320/m1/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7972 G:\00_module\07_fpga\sim_demo20200320\m1\project\fpga_top.xpr
+# Log file: G:/00_module/07_fpga/sim_demo20200320/m1/project/vivado.log
+# Journal file: G:/00_module/07_fpga/sim_demo20200320/m1/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Write_Depth_A {1024}] [get_ips sram_i64o64_d256]
+generate_target all [get_files  G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci]
+catch { config_ip_cache -export [get_ips -all sram_i64o64_d256] }
+export_ip_user_files -of_objects [get_files G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci] -no_script -sync -force -quiet
+reset_run sram_i64o64_d256_synth_1
+launch_runs sram_i64o64_d256_synth_1 -jobs 8
+wait_on_run sram_i64o64_d256_synth_1
+export_simulation -of_objects [get_files G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci] -directory G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.ip_user_files/sim_scripts -ip_user_files_dir G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.ip_user_files -ipstatic_source_dir G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.cache/compile_simlib/modelsim} {questa=G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.cache/compile_simlib/questa} {riviera=G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.cache/compile_simlib/riviera} {activehdl=G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

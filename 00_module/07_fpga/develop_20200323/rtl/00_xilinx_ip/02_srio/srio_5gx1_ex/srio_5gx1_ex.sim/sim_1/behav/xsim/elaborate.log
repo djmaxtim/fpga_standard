@@ -1,0 +1,15 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto c61293ade1f6433c9deda9ef0104f2d5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L fifo_generator_v13_2_5 -L srio_gen2_v4_1_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot srio_sim_behav xil_defaultlib.srio_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:32755]
+WARNING: [VRFC 10-3705] select index 7 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15758]
+WARNING: [VRFC 10-3705] select index 5 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15759]
+WARNING: [VRFC 10-3705] select index 7 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15790]
+WARNING: [VRFC 10-3705] select index 5 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15791]
+WARNING: [VRFC 10-3705] select index 7 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15833]
+WARNING: [VRFC 10-3705] select index 5 into 'destripe_pdsc' is out of bounds [/wrk/ci/prod/2021.1/sw/continuous/3932/packages/customer/vivado/data/ip/xilinx/srio_gen2_v4_1/hdl/srio_gen2_v4_1_rfs.v:15835]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

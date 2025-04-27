@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../imports" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/cfg_fabric_srio_5gx1.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtx_GT.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtxe2_init.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtx_multi_gt.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtxe2_rx_startup_fsm.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtxe2_sync_block.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_gtxe2_tx_startup_fsm.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_gt_wrapper_srio_5gx1_k7_1x.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1_block.v" \
+"../../../../srio_5gx1_ex.gen/sources_1/ip/srio_5gx1/synth/srio_5gx1.v" \
+"../../../../imports/srio_5gx1_k7_v7_gtxe2_common.v" \
+"../../../../imports/srio_5gx1_srio_clk.v" \
+"../../../../imports/srio_5gx1_srio_rst.v" \
+"../../../../imports/srio_5gx1_support.v" \
+"../../../../imports/srio_example_top_srio_5gx1.v" \
+"../../../../imports/srio_quick_start_srio_5gx1.v" \
+"../../../../imports/srio_report.v" \
+"../../../../imports/srio_request_gen_srio_5gx1.v" \
+"../../../../imports/srio_response_gen_srio_5gx1.v" \
+"../../../../imports/srio_statistics_srio_5gx1.v" \
+"../../../../imports/srio_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

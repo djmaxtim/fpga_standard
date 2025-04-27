@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto -L jesd204_v7_2_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot JESD204 xil_defaultlib.JESD204 xil_defaultlib.glbl -log elaborate.log

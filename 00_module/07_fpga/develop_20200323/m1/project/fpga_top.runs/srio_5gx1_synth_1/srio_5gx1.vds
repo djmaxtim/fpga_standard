@@ -1,0 +1,356 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 14 11:13:42 2025
+# Process ID: 21472
+# Current directory: G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1
+# Command line: vivado.exe -log srio_5gx1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source srio_5gx1.tcl
+# Log file: G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/srio_5gx1.vds
+# Journal file: G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source srio_5gx1.tcl -notrace
+Command: synth_design -top srio_5gx1 -part xc7k325tffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1540] The version limit for your license is '2025.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xc7k325tffg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25168
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.312 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_block' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_block.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (15#1) [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (16#1) [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (21#1) [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized2' [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized2' (35#1) [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'srio_gt_wrapper_srio_5gx1_k7_1x' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_gt_wrapper_srio_5gx1_k7_1x.v:51]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_init' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_init.v:72]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_multi_gt' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtx_multi_gt.v:72]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_GT' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtx_GT.v:118]
+INFO: [Synth 8-6157] synthesizing module 'GTXE2_CHANNEL' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:37123]
+INFO: [Synth 8-6155] done synthesizing module 'GTXE2_CHANNEL' (84#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:37123]
+INFO: [Synth 8-6157] synthesizing module 'FD' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27596]
+INFO: [Synth 8-6155] done synthesizing module 'FD' (85#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27596]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_GT' (86#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtx_GT.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_multi_gt' (87#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtx_multi_gt.v:72]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_TX_STARTUP_FSM' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_tx_startup_fsm.v:74]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_sync_block' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_sync_block.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_sync_block' (88#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_sync_block.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_TX_STARTUP_FSM' (89#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_tx_startup_fsm.v:74]
+INFO: [Synth 8-6157] synthesizing module 'srio_5gx1_RX_STARTUP_FSM' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_rx_startup_fsm.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_RX_STARTUP_FSM' (90#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_rx_startup_fsm.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_init' (91#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_gtxe2_init.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'srio_gt_wrapper_srio_5gx1_k7_1x' (92#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_gt_wrapper_srio_5gx1_k7_1x.v:51]
+INFO: [Synth 8-6157] synthesizing module 'cfg_fabric_srio_5gx1' [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/cfg_fabric_srio_5gx1.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'cfg_fabric_srio_5gx1' (93#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/cfg_fabric_srio_5gx1.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1_block' (94#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_block.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'srio_5gx1' (95#1) [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1578.199 ; gain = 325.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.199 ; gain = 325.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.199 ; gain = 325.887
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.471 . Memory (MB): peak = 1578.199 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [g:/00_module/07_fpga/develop_20200323/rtl/00_xilinx_ip/02_srio/srio_5gx1/synth/srio_5gx1_ooc.xdc] for cell 'inst'
+Parsing XDC File [G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/srio_5gx1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/srio_5gx1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/srio_5gx1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/srio_5gx1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 12 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1597.645 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 102 instances were transformed.
+  FD => FDRE: 102 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 1601.578 ; gain = 3.934
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1601.578 ; gain = 349.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1601.578 ; gain = 349.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/\real_sync_unit.dist_ram_afifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srio_gen2_v4_1_11_unifiedtop_inst/buf_core_inst/buf_top_inst/buf_tx_inst/buf_tx_sync_unit_inst/srl16_fifo_inst/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1601.578 ; gain = 349.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft'
+INFO: [Synth 8-802] inferred FSM for state register 'PPI_init_state_reg' in module 'srio_gen2_v4_1_11_oplm_init'
+INFO: [Synth 8-802] inferred FSM for state register 'output_error_cs_reg' in module 'srio_gen2_v4_1_11_ollm_rx_datapath'
+INFO: [Synth 8-802] inferred FSM for state register 'input_error_cs_reg' in module 'srio_gen2_v4_1_11_ollm_rx_datapath'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'srio_5gx1_TX_STARTUP_FSM'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'srio_5gx1_RX_STARTUP_FSM'
+INFO: [Synth 8-6159] Found Keep on FSM register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               10 |                               10
+       both_stages_valid |                               11 |                               11
+            stage2_valid |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             INIT_SILENT |                              001 |                             0000
+               INIT_SEEK |                              010 |                             0001
+        INIT_1X_MODE_LN0 |                              100 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'PPI_init_state_reg' using encoding 'one-hot' in module 'srio_gen2_v4_1_11_oplm_init'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+    IN_RECOVERY_DISABLED |                          0000001 |                          0000001
+   IN_REC_DISABLED_LRESP |                          1000000 |                          1000000
+       IN_WAIT_FOR_EVENT |                          0000010 |                          0000010
+       IN_ERROR_RECOVERY |                          0010000 |                          0010000
+           IN_STOP_INPUT |                          0000100 |                          0000100
+        IN_ERROR_STOPPED |                          0001000 |                          0001000
+        IN_RETRY_STOPPED |                          0100000 |                          0100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'input_error_cs_reg' in module 'srio_gen2_v4_1_11_ollm_rx_datapath'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+   OUT_RECOVERY_DISABLED |                           000001 |                           000001
+      OUT_WAIT_FOR_EVENT |                           000010 |                           000010
+          OUT_STOP_RETRY |                           010000 |                           010000
+          OUT_STOP_ERROR |                           000100 |                           000100
+       OUT_ERROR_RECOVER |                           001000 |                           001000
+               OUT_FATAL |                           100000 |                           100000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'output_error_cs_reg' in module 'srio_gen2_v4_1_11_ollm_rx_datapath'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+       WAIT_FOR_TXOUTCLK |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_TXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+          RESET_FSM_DONE |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'srio_5gx1_TX_STARTUP_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                             0000 |                             0000
+       ASSERT_ALL_RESETS |                             0001 |                             0001
+       WAIT_FOR_PLL_LOCK |                             0010 |                             0010
+       RELEASE_PLL_RESET |                             0011 |                             0011
+    VERIFY_RECCLK_STABLE |                             0100 |                             0100
+      RELEASE_MMCM_RESET |                             0101 |                             0101
+       WAIT_FOR_RXUSRCLK |                             0110 |                             0110
+         WAIT_RESET_DONE |                             0111 |                             0111
+      DO_PHASE_ALIGNMENT |                             1000 |                             1000
+      MONITOR_DATA_VALID |                             1001 |                             1001
+                FSM_DONE |                             1010 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'srio_5gx1_RX_STARTUP_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.578 ; gain = 349.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/srio_gen2_v4_1_11_unifiedtop_inst/phy_core_inst/phy_top_inst/ollm_rx_top_inst/ollm_rx_err_detect_inst/ollm_rx_crc16_32_inst' (srio_gen2_v4_1_11_crc16_32) to 'inst/srio_gen2_v4_1_11_unifiedtop_inst/phy_core_inst/phy_top_inst/ollm_rx_top_inst/ollm_rx_err_detect_inst/ollm_rx_crc16_check_inst'
+INFO: [Synth 8-223] decloning instance 'inst/srio_gen2_v4_1_11_unifiedtop_inst/phy_core_inst/phy_top_inst/ollm_rx_top_inst/ollm_rx_err_detect_inst/ollm_rx_crc16_48_inst' (srio_gen2_v4_1_11_crc16_48) to 'inst/srio_gen2_v4_1_11_unifiedtop_inst/phy_core_inst/phy_top_inst/ollm_rx_top_inst/ollm_rx_err_detect_inst/ollm_rx_crc48_check_inst'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:01:45 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:47 ; elapsed = 00:01:50 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:48 ; elapsed = 00:01:51 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:53 ; elapsed = 00:01:56 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:56 ; elapsed = 00:01:59 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:56 ; elapsed = 00:01:59 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |CARRY4        |    86|
+|2     |GTXE2_CHANNEL |     1|
+|3     |LUT1          |   131|
+|4     |LUT2          |   574|
+|5     |LUT3          |   704|
+|6     |LUT4          |  1030|
+|7     |LUT5          |  1196|
+|8     |LUT6          |  2575|
+|9     |MUXF7         |     4|
+|10    |RAM32M        |    17|
+|11    |RAM32X1D      |     4|
+|12    |RAMB36E1      |     8|
+|14    |SRL16E        |     1|
+|15    |SRLC32E       |     8|
+|16    |FD            |    90|
+|17    |FDCE          |   275|
+|18    |FDPE          |    99|
+|19    |FDRE          |  6311|
+|20    |FDSE          |   314|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:12 ; elapsed = 00:01:54 . Memory (MB): peak = 1659.648 ; gain = 383.957
+Synthesis Optimization Complete : Time (s): cpu = 00:01:57 ; elapsed = 00:02:00 . Memory (MB): peak = 1659.648 ; gain = 407.336
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.247 . Memory (MB): peak = 1659.648 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 209 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1659.648 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 111 instances were transformed.
+  FD => FDRE: 90 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 17 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+Synth Design complete, checksum: 251155ff
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:04 ; elapsed = 00:02:08 . Memory (MB): peak = 1659.648 ; gain = 407.336
+INFO: [Common 17-1381] The checkpoint 'G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/srio_5gx1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP srio_5gx1, cache-ID = 106c00bd5b1b73fc
+INFO: [Coretcl 2-1174] Renamed 121 cell refs.
+INFO: [Common 17-1381] The checkpoint 'G:/00_module/07_fpga/develop_20200323/m1/project/fpga_top.runs/srio_5gx1_synth_1/srio_5gx1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file srio_5gx1_utilization_synth.rpt -pb srio_5gx1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 14 11:16:09 2025...

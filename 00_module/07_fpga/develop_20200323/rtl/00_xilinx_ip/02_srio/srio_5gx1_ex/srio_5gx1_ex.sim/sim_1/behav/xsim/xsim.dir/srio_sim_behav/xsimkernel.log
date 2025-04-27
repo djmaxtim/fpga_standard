@@ -1,0 +1,7 @@
+Running: xsim.dir/srio_sim_behav/xsimk.exe -simmode gui -wdb srio_sim_behav.wdb -simrunnum 0 -socket 58681
+Design successfully loaded
+Design Loading Memory Usage: 259248 KB (Peak: 259248 KB)
+Design Loading CPU Usage: 578 ms
+Simulation completed
+Simulation Memory Usage: 317480 KB (Peak: 317480 KB)
+Simulation CPU Usage: 399014 ms

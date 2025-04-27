@@ -1,0 +1,273 @@
+# vsim -t 1ps -c -l ./log/vsim_tb_01_report.log work.tb_top -L UNISIMS_VER -L SECUREIP -L SIMPRIMS_VER -L work -voptargs="+acc" work.glbl -wav ./wave/tb_01.wlf 
+# Start time: 09:31:51 on Apr 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_DN_IF(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_DN_DMA(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_DN_DMA(fast__1)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_UP_ARBIT(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_DN_ARBIT(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_DN_CPLD_DPK(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_TX(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_UP_DMA(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_UP_DMA(fast__1)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "PCIE_UP_LBUF(fast)".
+# Loading work.tb_top(fast)
+# Loading work.SIM_MODEL(fast)
+# Loading work.PC_SIM(fast)
+# Loading work.PCIE_IF_GX(fast)
+# Loading work.PCIE_RX(fast)
+# Loading work.sfifo_i180_o180_d512(fast)
+# Loading UNISIMS_VER.GND(fast)
+# Loading UNISIMS_VER.LUT1(fast)
+# Loading UNISIMS_VER.LUT2(fast)
+# Loading UNISIMS_VER.LUT3(fast)
+# Loading UNISIMS_VER.FDRE(fast)
+# Loading UNISIMS_VER.CARRY4(fast)
+# Loading UNISIMS_VER.LUT5(fast)
+# Loading UNISIMS_VER.LUT5(fast__1)
+# Loading UNISIMS_VER.FDSE(fast)
+# Loading UNISIMS_VER.LUT4(fast)
+# Loading UNISIMS_VER.LUT4(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__2)
+# Loading UNISIMS_VER.LUT4(fast__2)
+# Loading UNISIMS_VER.LUT6(fast)
+# Loading UNISIMS_VER.LUT2(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__3)
+# Loading UNISIMS_VER.LUT4(fast__3)
+# Loading UNISIMS_VER.LUT5(fast__2)
+# Loading UNISIMS_VER.LUT6(fast__1)
+# Loading UNISIMS_VER.LUT6(fast__2)
+# Loading UNISIMS_VER.LUT4(fast__4)
+# Loading UNISIMS_VER.LUT2(fast__2)
+# Loading UNISIMS_VER.LUT5(fast__3)
+# Loading UNISIMS_VER.LUT4(fast__5)
+# Loading UNISIMS_VER.LUT6(fast__3)
+# Loading UNISIMS_VER.LUT1(fast__1)
+# Loading UNISIMS_VER.RAMB18E1(fast)
+# Loading UNISIMS_VER.RB18_INTERNAL_VLOG(fast)
+# Loading UNISIMS_VER.RAMB36E1(fast)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast)
+# Loading work.PCIE_TX(fast)
+# Loading work.sfifo_i72o72_d512(fast)
+# Loading UNISIMS_VER.LUT2(fast__3)
+# Loading UNISIMS_VER.RAMB36E1(fast__1)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast__1)
+# Loading work.PCIE_REG_IF(fast)
+# Loading work.PCIE_REG_ACK(fast)
+# Loading work.PCIE_REG_INT(fast)
+# Loading work.PCIE_DN_REG(fast)
+# Loading work.PCIE_UP_REG(fast)
+# Loading work.PCIE_DN_CPLD_IF(fast)
+# Loading work.PCIE_DN_IF(fast)
+# Loading work.afifo_i90o90_d512(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_gray(fast)
+# Loading UNISIMS_VER.LUT4(fast__6)
+# Loading UNISIMS_VER.LUT3(fast__4)
+# Loading UNISIMS_VER.LUT6(fast__4)
+# Loading UNISIMS_VER.LUT5(fast__4)
+# Loading work.afifo_i90o90_d512_xpm_cdc_gray__2(fast)
+# Loading UNISIMS_VER.FDPE(fast)
+# Loading UNISIMS_VER.LUT4(fast__7)
+# Loading UNISIMS_VER.FDCE(fast)
+# Loading UNISIMS_VER.LUT4(fast__8)
+# Loading UNISIMS_VER.LUT6(fast__5)
+# Loading UNISIMS_VER.LUT5(fast__5)
+# Loading UNISIMS_VER.LUT6(fast__6)
+# Loading UNISIMS_VER.LUT5(fast__6)
+# Loading UNISIMS_VER.LUT5(fast__7)
+# Loading UNISIMS_VER.LUT5(fast__8)
+# Loading UNISIMS_VER.LUT5(fast__9)
+# Loading UNISIMS_VER.RAM64M(fast)
+# Loading UNISIMS_VER.LUT6(fast__7)
+# Loading UNISIMS_VER.MUXF7(fast)
+# Loading UNISIMS_VER.LUT2(fast__4)
+# Loading work.afifo_i90o90_d512_xpm_cdc_async_rst(fast)
+# Loading UNISIMS_VER.FDPE(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__5)
+# Loading UNISIMS_VER.LUT5(fast__10)
+# Loading work.afifo_i90o90_d512_xpm_cdc_single(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_single__2(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_async_rst__1(fast)
+# Loading work.PCIE_DN_LBUF(fast)
+# Loading work.afifo_i72o72_d2048(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_gray(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_gray__2(fast)
+# Loading UNISIMS_VER.LUT6(fast__8)
+# Loading UNISIMS_VER.LUT6(fast__9)
+# Loading UNISIMS_VER.LUT6(fast__10)
+# Loading UNISIMS_VER.LUT6(fast__11)
+# Loading UNISIMS_VER.LUT6(fast__12)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_async_rst(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_single(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_single__2(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_async_rst__1(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.PCIE_DN_DFK(fast)
+# Loading work.PCIE_DN_DEK(fast)
+# Loading work.PCIE_DN_FBUF(fast)
+# Loading work.sfifo_i108o108_d512(fast)
+# Loading work.PCIE_DN_DMA(fast)
+# Loading work.PCIE_DN_CPLD_UEK(fast)
+# Loading work.PCIE_DN_CPLD_DFK(fast)
+# Loading work.PCIE_DN_CPLD_DPK(fast)
+# Loading work.sram_i64o64_d256(fast)
+# Loading UNISIMS_VER.RAMB36E1(fast__2)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast__2)
+# Loading UNISIMS_VER.LUT3(fast__6)
+# Loading UNISIMS_VER.SRL16E(fast)
+# Loading UNISIMS_VER.LUT4(fast__9)
+# Loading work.PCIE_DN_DFK(fast__1)
+# Loading work.PCIE_DN_DEK(fast__1)
+# Loading work.PCIE_DN_DMA(fast__1)
+# Loading work.PCIE_DN_ARBIT(fast)
+# Loading work.PCIE_UP_IF(fast)
+# Loading work.PCIE_UP_LBUF(fast)
+# Loading work.PCIE_UP_EBUF(fast)
+# Loading work.PCIE_UP_UFK(fast)
+# Loading work.PCIE_UP_UEK(fast)
+# Loading work.PCIE_UP_DMA(fast)
+# Loading work.PCIE_UP_UFK(fast__1)
+# Loading work.PCIE_UP_UEK(fast__1)
+# Loading work.PCIE_UP_DMA(fast__1)
+# Loading work.PCIE_UP_ARBIT(fast)
+# Loading work.BIST_REG(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'DRAM_WR_SIZE'. The port definition is at: ../rtl/05_pc_sim/pc_sim.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PC_SIM File: sim_model/tb_top.v Line: 708
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rsta_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rstb_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rsta_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rstb_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+#  
+# ******<<<<<<<<<<<<<<<<<<<<<<Simulation tb_01 start>>>>>>>>>>>>>>>>>>>>>>> ******
+#  
+# ---- Initial simulation
+# ---- clock ---- 1111 ---- enable
+# ---- Wait for  64 cycles
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_tdp.INT_RAMB_TDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 801f (hex) of port B while a write was requested to the same address on port A.  The write will be successful however the read value on port B is unknown until the next CLKB cycle.
+# ---- Wait for  64 cycles end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- reseting by cycle
+# ---- reset0   64 cycle end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- reseting by ns
+# ---- reset1  255 ns end
+# ---- DRAM write PORT :0x02    ADD :0x0000000    SIZE :0x400
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x010
+# ---- DRAM write end
+# ---- Wait for  16 cycles
+# ---- Wait for  16 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000000    SIZE :0x110
+# ---- DRAM write end
+# ---- Wait for  31 us
+# ---- Wait           1 us of  31 us
+# ---- Wait           2 us of  31 us
+# ---- Wait           3 us of  31 us
+# ---- Wait           4 us of  31 us
+# ---- Wait           5 us of  31 us
+# ---- Wait           6 us of  31 us
+# ---- Wait           7 us of  31 us
+# ---- Wait           8 us of  31 us
+# ---- Wait           9 us of  31 us
+# ---- Wait          10 us of  31 us
+# ---- Wait          11 us of  31 us
+# ---- Wait          12 us of  31 us
+# ---- Wait          13 us of  31 us
+# ---- Wait          14 us of  31 us
+# ---- Wait          15 us of  31 us
+# ---- Wait          16 us of  31 us
+# ---- Wait          17 us of  31 us
+# ---- Wait          18 us of  31 us
+# ---- Wait          19 us of  31 us
+# ---- Wait          20 us of  31 us
+# ---- Wait          21 us of  31 us
+# ---- Wait          22 us of  31 us
+# ---- Wait          23 us of  31 us
+# ---- Wait          24 us of  31 us
+# ---- Wait          25 us of  31 us
+# ---- Wait          26 us of  31 us
+# ---- Wait          27 us of  31 us
+# ---- Wait          28 us of  31 us
+# ---- Wait          29 us of  31 us
+# ---- Wait          30 us of  31 us
+# ---- Wait          31 us of  31 us
+# ---- Wait for  31 us end
+# ---- Wait for 255 cycles
+# ---- Wait for 255 cycles end
+# ---- Wait for   8 us
+# ---- Wait           1 us of   8 us
+# ---- Wait           2 us of   8 us
+# ---- Wait           3 us of   8 us
+# ---- Wait           4 us of   8 us
+# ---- Wait           5 us of   8 us
+# ---- Wait           6 us of   8 us
+# ---- Wait           7 us of   8 us
+# ---- Wait           8 us of   8 us
+# ---- Wait for   8 us end
+# ---- tb_01 test completed !
+#  
+# ******<<<<<<<<<<<<<<<<<<<<Simulation tb_01 Successful End>>>>>>>>>>>>>>>>>>> ******
+#  
+# End time: 09:32:45 on Apr 10,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 5

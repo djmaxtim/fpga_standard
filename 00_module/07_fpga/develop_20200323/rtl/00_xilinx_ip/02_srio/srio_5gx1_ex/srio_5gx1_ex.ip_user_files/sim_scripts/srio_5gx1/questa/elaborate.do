@@ -1,0 +1,1 @@
+vopt +acc=npr -l elaborate.log -L xil_defaultlib -L xpm -L blk_mem_gen_v8_4_4 -L fifo_generator_v13_2_5 -L srio_gen2_v4_1_11 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.srio_5gx1 xil_defaultlib.glbl -o srio_5gx1_opt

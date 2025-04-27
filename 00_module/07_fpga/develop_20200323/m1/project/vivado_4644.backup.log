@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Mar 17 15:07:07 2025
+# Process ID: 4644
+# Current directory: G:/00_module/07_fpga/develop_20200322/m1/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12336 G:\00_module\07_fpga\develop_20200322\m1\project\fpga_top.xpr
+# Log file: G:/00_module/07_fpga/develop_20200322/m1/project/vivado.log
+# Journal file: G:/00_module/07_fpga/develop_20200322/m1/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.xpr
+INFO: [Project 1-313] Project file moved from 'G:/00_module/07_fpga/sim_demo20200320/m1/project' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.gen/sources_1', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.gen/sources_1'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.ip_user_files', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/m1/project/fpga_top.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_arbit.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_arbit.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dfk.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_cpld_dfk.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_if.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_cpld_if.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_uek.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_cpld_uek.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dek.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_dek.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dfk.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_dfk.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dma.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_dma.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_fbuf.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_fbuf.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_if.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_if.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_lbuf.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_lbuf.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_reg.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_dn_reg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_ack.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_reg_ack.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_if.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_reg_if.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_int.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_reg_int.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_rx.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_rx.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_tx.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_tx.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_arbit.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_arbit.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_dma.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_dma.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ebuf.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_ebuf.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_if.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_if.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_lbuf.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_lbuf.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_reg.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_reg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_uek.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_uek.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ufk.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_up_ufk.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_if_gx_x1.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_if_gx_x1.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_int.v', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/03_pcie_if_gx/pcie_int.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci', nor could it be found using path 'G:/00_module/07_fpga/sim_demo20200320/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'sfifo_i180_o180_d512_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'sfifo_i72o72_d512_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'afifo_i90o90_d512_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'afifo_i72o72_d2048_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'sfifo_i108o108_d512_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'sram_i64o64_d256_synth_1' not found
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'sfifo_i180_o180_d512'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance sfifo_i180_o180_d512 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'sfifo_i72o72_d512'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance sfifo_i72o72_d512 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'afifo_i90o90_d512'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance afifo_i90o90_d512 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'afifo_i72o72_d2048'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance afifo_i72o72_d2048 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'sfifo_i108o108_d512'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance sfifo_i108o108_d512 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'sram_i64o64_d256'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance sram_i64o64_d256 using VLNV :::.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1225.031 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci] -no_script -reset -force -quiet
+remove_files  -fileset afifo_i72o72_d2048 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci' from fileset 'afifo_i72o72_d2048' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci] -no_script -reset -force -quiet
+remove_files  -fileset afifo_i90o90_d512 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci' from fileset 'afifo_i90o90_d512' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci] -no_script -reset -force -quiet
+remove_files  -fileset sfifo_i72o72_d512 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci' from fileset 'sfifo_i72o72_d512' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci] -no_script -reset -force -quiet
+remove_files  -fileset sfifo_i108o108_d512 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci' from fileset 'sfifo_i108o108_d512' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci] -no_script -reset -force -quiet
+remove_files  -fileset sfifo_i180_o180_d512 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci' from fileset 'sfifo_i180_o180_d512' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci] -no_script -reset -force -quiet
+remove_files  -fileset sram_i64o64_d256 G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci
+INFO: [Project 1-386] Moving file 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256.xci' from fileset 'sram_i64o64_d256' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/04_bist/ram_bist.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/04_bist/bist_reg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/01_user_ip/pulse_gen.v] -no_script -reset -force -quiet
+remove_files  {G:/00_module/07_fpga/develop_20200322/rtl/04_bist/ram_bist.v G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci G:/00_module/07_fpga/develop_20200322/rtl/04_bist/bist_reg.v G:/00_module/07_fpga/develop_20200322/rtl/01_user_ip/pulse_gen.v}
+WARNING: [Vivado 12-818] No files matched 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i72o72_d2048/afifo_i72o72_d2048.xci'
+WARNING: [Vivado 12-818] No files matched 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/1_afifo/afifo_i90o90_d512/afifo_i90o90_d512.xci'
+WARNING: [Vivado 12-818] No files matched 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i108o108_d512/sfifo_i108o108_d512.xci'
+WARNING: [Vivado 12-818] No files matched 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i180_o180_d512/sfifo_i180_o180_d512.xci'
+WARNING: [Vivado 12-818] No files matched 'G:/00_module/07_fpga/develop_20200322/rtl/00_xilinx_ip/2_sfifo/sfifo_i72o72_d512/sfifo_i72o72_d512.xci'
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_arbit.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dfk.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_if.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_uek.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dek.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dfk.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dma.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_fbuf.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_if.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_lbuf.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_reg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_if_gx_x1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_int.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_ack.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_if.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_int.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_rx.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_tx.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_arbit.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_dma.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ebuf.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_if.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_lbuf.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_reg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_uek.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ufk.v] -no_script -reset -force -quiet
+remove_files  {G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_arbit.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dfk.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_if.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_cpld_uek.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dek.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dfk.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_dma.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_fbuf.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_if.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_lbuf.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_dn_reg.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_if_gx_x1.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_int.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_ack.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_if.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_reg_int.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_rx.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_tx.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_arbit.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_dma.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ebuf.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_if.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_lbuf.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_reg.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_uek.v G:/00_module/07_fpga/develop_20200322/rtl/03_pcie_if_gx/pcie_up_ufk.v}
+add_files -norecurse G:/00_module/07_fpga/develop_20200322/rtl/03_iic/iic_if.v
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 17 15:08:51 2025...

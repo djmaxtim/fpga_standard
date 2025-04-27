@@ -1,0 +1,11 @@
+# End time: 09:29:46 on Feb 18,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 9
+# vsim -novopt -t 1ps -c -l ./log/vsim_tb_06_report.log work.tb_top -L UNISIMS_VER -L SECUREIP -L SIMPRIMS_VER -L XILINXCORELIB_VER -L work work.glbl -wav ./wave/tb_06.wlf 
+# Start time: 09:29:46 on Feb 18,2025
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./do/tb_06.do PAUSED at line 6
+# End time: 10:47:39 on Feb 18,2025, Elapsed time: 1:17:53
+# Errors: 1, Warnings: 0

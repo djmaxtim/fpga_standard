@@ -1,0 +1,10 @@
+vhdl xpm  \
+"C:/Xilinx/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl fifo_generator_v13_2_5  \
+"../../../ipstatic/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl srio_gen2_v4_1_11  \
+"../../../ipstatic/hdl/srio_gen2_v4_1_rfs.vhd" \
+
+nosort

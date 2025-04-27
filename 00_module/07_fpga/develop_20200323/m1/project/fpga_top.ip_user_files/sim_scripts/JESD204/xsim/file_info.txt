@@ -1,0 +1,11 @@
+JESD204_block.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/JESD204_block.v,
+JESD204_address_decoder.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/axi_ipif/JESD204_address_decoder.v,
+JESD204_register_decode.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/JESD204_register_decode.v,
+JESD204_axi_lite_ipif.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/axi_ipif/JESD204_axi_lite_ipif.v,
+JESD204_counter_f.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/axi_ipif/JESD204_counter_f.v,
+JESD204_pselect_f.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/axi_ipif/JESD204_pselect_f.v,
+JESD204_slave_attachment.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/axi_ipif/JESD204_slave_attachment.v,
+JESD204_count_err.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/JESD204_count_err.v,
+JESD204_reset_block.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/JESD204_reset_block.v,
+JESD204.v,verilog,xil_defaultlib,../../../../../../../develop_20200324/rtl/00_xilinx_ip/04_jesd204/JESD204/synth/JESD204.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

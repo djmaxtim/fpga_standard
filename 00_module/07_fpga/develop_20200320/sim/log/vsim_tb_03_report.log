@@ -1,0 +1,231 @@
+# End time: 09:27:55 on Feb 18,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 9
+# vsim -t 1ps -c -l ./log/vsim_tb_03_report.log work.tb_top -L fifo_generator_v13_2_5 -L blk_mem_gen_v8_4_4 -L UNISIMS_VER -L SECUREIP -L SIMPRIMS_VER -L work -voptargs="+acc" work.glbl -wav ./wave/tb_03.wlf 
+# Start time: 09:27:56 on Feb 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_top(fast)
+# Loading work.SIM_MODEL(fast)
+# Loading work.PC_SIM(fast)
+# Loading work.PCIE_IF_GX(fast)
+# Loading work.PCIE_RX(fast)
+# Loading work.sfifo_i180_o180_d512(fast)
+# Loading UNISIMS_VER.GND(fast)
+# Loading UNISIMS_VER.LUT1(fast)
+# Loading UNISIMS_VER.LUT2(fast)
+# Loading UNISIMS_VER.LUT3(fast)
+# Loading UNISIMS_VER.FDRE(fast)
+# Loading UNISIMS_VER.CARRY4(fast)
+# Loading UNISIMS_VER.LUT5(fast)
+# Loading UNISIMS_VER.LUT5(fast__1)
+# Loading UNISIMS_VER.FDSE(fast)
+# Loading UNISIMS_VER.LUT4(fast)
+# Loading UNISIMS_VER.LUT4(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__2)
+# Loading UNISIMS_VER.LUT4(fast__2)
+# Loading UNISIMS_VER.LUT6(fast)
+# Loading UNISIMS_VER.LUT2(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__3)
+# Loading UNISIMS_VER.LUT4(fast__3)
+# Loading UNISIMS_VER.LUT5(fast__2)
+# Loading UNISIMS_VER.LUT6(fast__1)
+# Loading UNISIMS_VER.LUT6(fast__2)
+# Loading UNISIMS_VER.LUT4(fast__4)
+# Loading UNISIMS_VER.LUT2(fast__2)
+# Loading UNISIMS_VER.LUT5(fast__3)
+# Loading UNISIMS_VER.LUT4(fast__5)
+# Loading UNISIMS_VER.LUT6(fast__3)
+# Loading UNISIMS_VER.LUT1(fast__1)
+# Loading UNISIMS_VER.RAMB18E1(fast)
+# Loading UNISIMS_VER.RB18_INTERNAL_VLOG(fast)
+# Loading UNISIMS_VER.RAMB36E1(fast)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast)
+# Loading work.PCIE_TX(fast)
+# Loading work.sfifo_i72o72_d512(fast)
+# Loading UNISIMS_VER.LUT2(fast__3)
+# Loading UNISIMS_VER.RAMB36E1(fast__1)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast__1)
+# Loading work.PCIE_REG_IF(fast)
+# Loading work.PCIE_REG_ACK(fast)
+# Loading work.PCIE_REG_INT(fast)
+# Loading work.PCIE_DN_REG(fast)
+# Loading work.PCIE_UP_REG(fast)
+# Loading work.PCIE_DN_CPLD_IF(fast)
+# Loading work.PCIE_DN_IF(fast)
+# Loading work.afifo_i90o90_d512(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_gray(fast)
+# Loading UNISIMS_VER.LUT4(fast__6)
+# Loading UNISIMS_VER.LUT3(fast__4)
+# Loading UNISIMS_VER.LUT6(fast__4)
+# Loading UNISIMS_VER.LUT5(fast__4)
+# Loading work.afifo_i90o90_d512_xpm_cdc_gray__2(fast)
+# Loading UNISIMS_VER.FDPE(fast)
+# Loading UNISIMS_VER.LUT4(fast__7)
+# Loading UNISIMS_VER.FDCE(fast)
+# Loading UNISIMS_VER.LUT4(fast__8)
+# Loading UNISIMS_VER.LUT6(fast__5)
+# Loading UNISIMS_VER.LUT5(fast__5)
+# Loading UNISIMS_VER.LUT6(fast__6)
+# Loading UNISIMS_VER.LUT5(fast__6)
+# Loading UNISIMS_VER.LUT5(fast__7)
+# Loading UNISIMS_VER.LUT5(fast__8)
+# Loading UNISIMS_VER.LUT5(fast__9)
+# Loading UNISIMS_VER.RAM64M(fast)
+# Loading UNISIMS_VER.LUT6(fast__7)
+# Loading UNISIMS_VER.MUXF7(fast)
+# Loading UNISIMS_VER.LUT2(fast__4)
+# Loading work.afifo_i90o90_d512_xpm_cdc_async_rst(fast)
+# Loading UNISIMS_VER.FDPE(fast__1)
+# Loading UNISIMS_VER.LUT3(fast__5)
+# Loading UNISIMS_VER.LUT5(fast__10)
+# Loading work.afifo_i90o90_d512_xpm_cdc_single(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_single__2(fast)
+# Loading work.afifo_i90o90_d512_xpm_cdc_async_rst__1(fast)
+# Loading work.PCIE_DN_LBUF(fast)
+# Loading work.afifo_i72o72_d2048(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_gray(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_gray__2(fast)
+# Loading UNISIMS_VER.LUT6(fast__8)
+# Loading UNISIMS_VER.LUT6(fast__9)
+# Loading UNISIMS_VER.LUT6(fast__10)
+# Loading UNISIMS_VER.LUT6(fast__11)
+# Loading UNISIMS_VER.LUT6(fast__12)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_async_rst(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_single(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_single__2(fast)
+# Loading work.afifo_i72o72_d2048_xpm_cdc_async_rst__1(fast)
+# Loading work.PULSE_GEN(fast)
+# Loading work.PCIE_DN_DFK(fast)
+# Loading work.PCIE_DN_DEK(fast)
+# Loading work.PCIE_DN_FBUF(fast)
+# Loading work.sfifo_i108o108_d512(fast)
+# Loading work.PCIE_DN_DMA(fast)
+# Loading work.PCIE_DN_CPLD_UEK(fast)
+# Loading work.PCIE_DN_CPLD_DFK(fast)
+# Loading work.PCIE_DN_CPLD_DPK(fast)
+# Loading work.sram_i64o64_d256(fast)
+# Loading UNISIMS_VER.SRL16E(fast)
+# Loading UNISIMS_VER.RAMB36E1(fast__2)
+# Loading UNISIMS_VER.RB36_INTERNAL_VLOG(fast__2)
+# Loading UNISIMS_VER.LUT3(fast__6)
+# Loading UNISIMS_VER.LUT4(fast__9)
+# Loading work.PCIE_DN_DFK(fast__1)
+# Loading work.PCIE_DN_DEK(fast__1)
+# Loading work.PCIE_DN_DMA(fast__1)
+# Loading work.PCIE_DN_ARBIT(fast)
+# Loading work.PCIE_UP_IF(fast)
+# Loading work.PCIE_UP_LBUF(fast)
+# Loading work.PCIE_UP_EBUF(fast)
+# Loading work.PCIE_UP_UFK(fast)
+# Loading work.PCIE_UP_UEK(fast)
+# Loading work.PCIE_UP_DMA(fast)
+# Loading work.PCIE_UP_UFK(fast__1)
+# Loading work.PCIE_UP_UEK(fast__1)
+# Loading work.PCIE_UP_DMA(fast__1)
+# Loading work.PCIE_UP_ARBIT(fast)
+# Loading work.BIST_REG(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'DRAM_WR_SIZE'. The port definition is at: ../rtl/05_pc_sim/pc_sim.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PC_SIM File: sim_model/tb_top.v Line: 708
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (10) for port 'addra'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (10) for port 'addrb'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rsta_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rstb_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[0]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (10) for port 'addra'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (10) for port 'addrb'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rsta_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (64) for port 'rstb_busy'. The port definition is at: ../rtl/00_xilinx_ip/0_sbram/sram_i64o64_d256/sram_i64o64_d256_sim_netlist.V(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/U_PCIE_IF_GX/GROUP_DN[1]/U_PCIE_DN_CPLD_DPK/U_DBUF File: ../rtl/03_pcie_if_gx/pcie_dn_cpld_dpk.v Line: 158
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_WR_REQ'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 18
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_RD_REQ'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 19
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_WR_ACK'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 20
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_RD_ACK'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 21
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_WR_DATA'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 22
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_RD_DATA'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 23
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/REG_OP_ADDR'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 24
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_FPGA_VER0_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 26
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_FPGA_VER1_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 27
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_FPGA_VER2_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 28
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_FPGA_VER3_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 29
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_BORD_VER0_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 30
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/U_FPGA_TOP_SIMA/U_REG_BIST_0/s_REG_BORD_VER1_EN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 31
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_DIN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 49
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_WEN'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 50
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_DOUT'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 51
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_FULL'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 52
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_EMPTY'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 53
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_RCNT'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 54
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_top/s_FIFO_WCNT'.
+# Executing ONERROR command at macro ./wave_do/wave_tb_03.do line 55
+#  
+# ******<<<<<<<<<<<<<<<<<<<<<<Simulation tb_03 start>>>>>>>>>>>>>>>>>>>>>>> ******
+#  
+# ---- Initial simulation
+# ---- clock ---- 1111 ---- enable
+# ---- Wait for  64 cycles
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 118.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 122.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 126.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[1].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# Memory Collision Error on RAMB36E1 : tb_top.U_PCIE_IF_GX.GROUP_DN[0].U_PCIE_DN_CPLD_DPK.U_DBUF.U0.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.gen_sdp.gen_wide.INT_RAMB_SDP.chk_for_col_msg at simulation time 130.000 ns.
+# A read was performed on address 803f (hex) of port A while a write was requested to the same address on port B.  The write will be successful however the read value on port A is unknown until the next CLKA cycle.
+# ---- Wait for  64 cycles end
+# ---- DRAM write PORT :0x01    ADD :0x0000040    SIZE :0x100
+# ---- DRAM write end
+# ---- Wait for 255 cycles
+# ---- Wait for 255 cycles end
+# ---- tb_03 test completed !
+#  
+# ******<<<<<<<<<<<<<<<<<<<<Simulation tb_03 Successful End>>>>>>>>>>>>>>>>>>> ******
+#  
+do do/tb_04.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:28:15 on Feb 18,2025
+# vlog -reportprogress 300 "+define+tb_04=1" -work work sim_model\define\define.v 
+# End time: 09:28:15 on Feb 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:28:15 on Feb 18,2025
+# vlog -reportprogress 300 "+define+tb_04=1" -work work "+incdir+{sim_modeldefine}" sim_model\tb_top.v 
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 09:28:15 on Feb 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

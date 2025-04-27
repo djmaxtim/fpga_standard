@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Mar 18 13:04:37 2025
+# Process ID: 3220
+# Current directory: G:/00_module/07_fpga/develop_20200322/m1/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21156 G:\00_module\07_fpga\develop_20200322\m1\project\fpga_top.xpr
+# Log file: G:/00_module/07_fpga/develop_20200322/m1/project/vivado.log
+# Journal file: G:/00_module/07_fpga/develop_20200322/m1/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/00_module/07_fpga/develop_20200322/m1/project/fpga_top.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 20 15:48:16 2025...
