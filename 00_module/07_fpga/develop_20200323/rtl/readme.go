@@ -1,1 +1,1 @@
-pcie block dma
+serial rapid IO
